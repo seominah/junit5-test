@@ -7,7 +7,6 @@
     <list default="true" id="659dee38-1ca6-4179-a8dc-c59809c01a9e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/calculator/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,7 @@
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -208,7 +208,7 @@
       <workItem from="1680703842089" duration="781000" />
       <workItem from="1680778742667" duration="400000" />
       <workItem from="1680792450549" duration="416000" />
-      <workItem from="1680877019980" duration="1557000" />
+      <workItem from="1680877019980" duration="2495000" />
     </task>
     <servers />
   </component>

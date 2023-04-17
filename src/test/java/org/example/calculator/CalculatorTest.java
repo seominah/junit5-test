@@ -1,13 +1,14 @@
 package org.example.calculator;
 
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.*;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 public class CalculatorTest {
@@ -28,5 +29,13 @@ public class CalculatorTest {
                 arguments(4, "*", 2, 8),
                 arguments(8, "/", 2, 4)
         );
+    }
+
+    @DisplayName("나눗셈에서 0을 나누는 경우 예외를 발생시킨다.")
+    @Test
+    void calculateExceptionTest(){
+        assertThatCode(()->Calculator.calculator(10, "/", 0))
+                .isInstanceOf(IllegalArgumentException.class)
+                .hasMessage("0으로는 나눌 수 없습니다.it");
     }
 }

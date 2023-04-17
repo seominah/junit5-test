@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="659dee38-1ca6-4179-a8dc-c59809c01a9e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/calculate/AdditionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/calculate/AdditionOperator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/calculate/DivisionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/calculate/DivisionOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/calculate/MultiplicationOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/calculate/MultiplicationOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/calculate/NewArithmeticOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/calculate/NewArithmeticOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/calculate/SubtractionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/calculate/SubtractionOperator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/calculator/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +98,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.calculateExceptionTest">
+  <component name="RunManager" selected="JUnit.PositiveNumberTest.createTest (1)">
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="org.example.oop-practice.test" />
       <extension name="coverage">
@@ -105,22 +110,6 @@
       <option name="PACKAGE_NAME" value="org.example.calculator" />
       <option name="MAIN_CLASS_NAME" value="org.example.calculator.CalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.additionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="org.example.oop-practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.calculator" />
-      <option name="MAIN_CLASS_NAME" value="org.example.calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="additionTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,28 +162,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PositiveNumberTest.createTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="org.example.oop-practice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.generator.*" />
+          <option name="PATTERN" value="org.example.calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.password" />
-      <option name="MAIN_CLASS_NAME" value="org.example.password.UserTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="org.example.calculator" />
+      <option name="MAIN_CLASS_NAME" value="org.example.calculator.PositiveNumberTest" />
+      <option name="METHOD_NAME" value="createTest(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PositiveNumberTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="org.example.oop-practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.calculator" />
+      <option name="MAIN_CLASS_NAME" value="org.example.calculator.PositiveNumberTest" />
+      <option name="METHOD_NAME" value="createTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PositiveNumberTest.createTest (1)" />
+        <item itemvalue="JUnit.PositiveNumberTest.createTest" />
         <item itemvalue="JUnit.CalculatorTest.calculateExceptionTest" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.subtractionTest" />
-        <item itemvalue="JUnit.CalculatorTest.additionTest" />
-        <item itemvalue="JUnit.UserTest" />
       </list>
     </recent_temporary>
   </component>

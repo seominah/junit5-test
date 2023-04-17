@@ -1,6 +1,5 @@
 package org.example.calculator;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public enum ArithmeticOperator {
